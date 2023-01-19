@@ -1,0 +1,28 @@
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'krabby-patty';
+    src: url(./Krabby\ Patty.ttf);
+}
+
+:root {
+    font-family: 'krabby-patty';
+    --kk-brown: #55442c;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    font-size: 2.5rem;
+    background-color: var(--kk-brown);
+    color: #fff;
+}
+
+nav {
+    display: flex;
+    gap: 30px;
+}

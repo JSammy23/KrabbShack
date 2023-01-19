@@ -27,8 +27,12 @@ nav {
     gap: 30px;
 }
 
-nav > div {
+nav > button {
     cursor: pointer;
+    outline: none;
+    border: none;
+    /* color: #fff; */
+
 }
 
 body {

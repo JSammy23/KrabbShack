@@ -1,4 +1,5 @@
 // import modules
+import loadHome from "./home";
 
 
 function createHeader() {
@@ -41,11 +42,20 @@ function createNav() {
     return nav
 }
 
+function createMain() {
+    const main = document.createElement('main');
+    main.classList.add('main');
+    main.setAttribute('id', 'main');
+    return main;
+}
+
 function initPage() {
     const content = document.getElementById('content');
 
     content.appendChild(createHeader());
+    content.appendChild(createMain())
     
+    loadHome();
 }
 
 export default initPage;

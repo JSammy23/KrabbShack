@@ -31,8 +31,10 @@ nav > button {
     cursor: pointer;
     outline: none;
     border: none;
-    /* color: #fff; */
-
+    color: #fff;
+    background: none;
+    font-size: 2.5rem;
+    font-family: 'krabby-patty';
 }
 
 body {

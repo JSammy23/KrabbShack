@@ -41,3 +41,11 @@ function createNav() {
     return nav
 }
 
+function initPage() {
+    const content = document.getElementById('content');
+
+    content.appendChild(createHeader());
+    
+}
+
+export default initPage;

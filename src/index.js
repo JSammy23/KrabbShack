@@ -1,3 +1,4 @@
+import initPage from './initialize'
 import './styles.css'
 
-console.log("We are modular")
+initPage();

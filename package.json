@@ -1,7 +1,7 @@
 {
   "name": "krabbshack",
   "version": "1.0.0",
-  "description": "Restarant page made for the odin project",
+  "description": "Restuarant page made for the odin project",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",

@@ -18,7 +18,7 @@ header {
     display: flex;
     justify-content: center;
     font-size: 2.5rem;
-    background-color: var(--kk-brown);
+    /* background-color: var(--kk-brown); */
     color: #fff;
 }
 
@@ -52,8 +52,16 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    color: #fff;
 }
 
-.title {
-    color: #fff;
+.home {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 3rem;
+}
+
+.content {
+    font-size: 1.5rem;
 }

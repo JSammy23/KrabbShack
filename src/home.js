@@ -1,4 +1,4 @@
-import KrabbyPatty from './assets/krabbyPatty.gif';
+import krabbyPatty from './assets/krabbyPatty.gif';
 
 function createHome() {
     const home = document.createElement('div');
@@ -23,8 +23,8 @@ function createContent() {
     const slogan = document.createElement('p');
     newDiv.classList.add('content')
     slogan.textContent = 'Home of the beloved Krabby Patty';
-    const patty = new Image(325, 325)
-    patty.src = {KrabbyPatty}
+    const patty = document.createElement('img');
+    patty.src = krabbyPatty;
     newDiv.appendChild(slogan);
     newDiv.appendChild(patty);
 

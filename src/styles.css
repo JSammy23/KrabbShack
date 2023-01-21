@@ -50,6 +50,7 @@ body {
     margin-right: auto;
     margin-top: 5rem;
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     color: #fff;
@@ -69,6 +70,16 @@ body {
     
 }
 
-.menu {
-    
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.menuHeader {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    border-bottom: 3px solid #fff;
+    padding-bottom: 20px;
 }

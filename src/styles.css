@@ -39,7 +39,8 @@ nav > button {
 
 body {
     background: url(./assets/krustykrab.png);
-
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .wrapper {

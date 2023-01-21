@@ -1,5 +1,6 @@
 // import modules
 import loadHome from "./home";
+import loadMenu from "./menu";
 
 
 function createHeader() {
